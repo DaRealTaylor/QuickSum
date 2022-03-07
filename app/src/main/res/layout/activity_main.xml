@@ -24,6 +24,7 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
+                android:id="@+id/button1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -33,6 +34,7 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
+                android:id="@+id/button2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -42,6 +44,7 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
+                android:id="@+id/button3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -57,6 +60,7 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
+                android:id="@+id/button4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -66,6 +70,7 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
+                android:id="@+id/button5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -75,6 +80,7 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
+                android:id="@+id/button6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -90,6 +96,7 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
+                android:id="@+id/button7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -99,6 +106,7 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
+                android:id="@+id/button8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -108,6 +116,7 @@
 
             <Button
                 style="@style/Widget.AppCompat.Button"
+                android:id="@+id/button9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -127,6 +136,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="restart"
+                android:id="@+id/Clear"
                 android:text="Clear"
                 android:textSize="42sp" />
 

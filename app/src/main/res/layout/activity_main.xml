@@ -126,7 +126,6 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/clear"
                 android:onClick="restart"
                 android:text="Clear"
                 android:textSize="42sp" />

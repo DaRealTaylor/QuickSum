@@ -114,6 +114,22 @@
                 android:onClick="buttonClicked"
                 android:text="@string/Nine"
                 android:textSize="42sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="buttonClicked"
+                android:text="Clear"
+                android:textSize="42sp" />
+
         </TableRow>
     </TableLayout>
 

@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private int sum;
-    private int result;
+
 
 
     @Override
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         sum += number;
 
         TextView textView = findViewById(R.id.sum);
+        String result = "" + sum;
         textView.setText(result);
     }
 }

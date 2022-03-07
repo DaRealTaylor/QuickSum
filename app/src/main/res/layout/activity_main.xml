@@ -27,6 +27,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="buttonClicked"
                 android:text="@string/One"
                 android:textSize="42sp" />
 
@@ -36,6 +37,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/Two"
+                android:onClick="buttonClicked"
                 android:textSize="42sp" />
 
             <Button
@@ -43,6 +45,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="buttonClicked"
                 android:text="@string/Three"
                 android:textSize="42sp" />
         </TableRow>
@@ -57,6 +60,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="buttonClicked"
                 android:text="@string/Four"
                 android:textSize="42sp" />
 
@@ -65,6 +69,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="buttonClicked"
                 android:text="@string/Five"
                 android:textSize="42sp" />
 
@@ -73,6 +78,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="buttonClicked"
                 android:text="@string/Six"
                 android:textSize="42sp" />
         </TableRow>
@@ -88,6 +94,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/Seven"
+                android:onClick="buttonClicked"
                 android:textSize="42sp" />
 
             <Button
@@ -95,6 +102,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="buttonClicked"
                 android:text="@string/Eight"
                 android:textSize="42sp" />
 
@@ -103,6 +111,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="buttonClicked"
                 android:text="@string/Nine"
                 android:textSize="42sp" />
         </TableRow>

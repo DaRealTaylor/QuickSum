@@ -1,18 +1,15 @@
 package com.example.quicksum;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private int sum;
-    public EditText editText;
-
 
 
     @Override
@@ -32,4 +29,11 @@ public class MainActivity extends AppCompatActivity {
         textView.setText(result);
     }
 
+    public void clearClicked(View view){
+        sum = 0;
+        TextView textView = findViewById(R.id.sum);
+        String result = "" + sum;
+        textView.setText(result);
+
+    }
 }
